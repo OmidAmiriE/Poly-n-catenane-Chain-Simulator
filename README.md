@@ -1,3 +1,4 @@
+---
 Poly[n]catenane Chain Simulator
 
 Please refer to the following publication for further information.
