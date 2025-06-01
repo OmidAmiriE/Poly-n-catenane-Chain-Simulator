@@ -20,6 +20,7 @@ The first monomer is attached to a fixed point by a stiff spring joint. Pulling 
 The default values of the parameters in the app allow for ready observation of difference in monomer re-orientation frequency when the chain is pulled at a slow velocity (e.g. 10) as opposed to a high velocity (e.g. 200).
 
 Camera movement for close examination is controlled by keyboard and mouse inputs.
+
 Version 1.0.0
 
 
