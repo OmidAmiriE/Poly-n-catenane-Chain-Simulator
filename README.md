@@ -1,4 +1,3 @@
----
 Poly[n]catenane Chain Simulator
 ---
 
@@ -7,7 +6,6 @@ Please refer to the following publication for further information.
 Wang et al, "Isolated chains of single-crystalline linear poly[n]catenanes exhibit unique mechanical damping" 2025
 For correspondence, please contact the corresponding authors listed on the manuscript. For technical details about this simulation, feel free to contact Omid Amiri on github at: github.com/OmidAmiriE or by e-mail: omid.f.amiri@gmail.com
 
----
 Brief Technical Description
 ---
 
@@ -22,7 +20,6 @@ The first monomer is attached to a fixed point by a stiff spring joint. Pulling 
 The default values of the parameters in the app allow for ready observation of difference in monomer re-orientation frequency when the chain is pulled at a slow velocity (e.g. 10) as opposed to a high velocity (e.g. 200).
 
 Camera movement for close examination is controlled by keyboard and mouse inputs.
----
 Version 1.0.0
 
 
