@@ -4,7 +4,7 @@ Poly[n]catenane Chain Simulator
 Please refer to the following publication for further information.
 
 Wang et al, "Isolated chains of single-crystalline linear poly[n]catenanes exhibit unique mechanical damping" 2025
-For correspondence, please contact the corresponding authors listed on the manuscript. For technical details about this simulation, feel free to contact Omid Amiri on github at: github.com/OmidAmiriE or by e-mail: omid.f.amiri@gmail.com
+For correspondence, please contact the corresponding authors listed on the manuscript. For technical details about this simulation, feel free to contact Omid Amiri on GitHub at: github.com/OmidAmiriE or by e-mail: omid.f.amiri@gmail.com
 
 Brief Technical Description
 ---
