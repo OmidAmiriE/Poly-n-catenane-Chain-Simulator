@@ -13,7 +13,7 @@ This is an interactive real-time mechanical model of the catenated chained behav
 
 Random forces are applied on line 263 of ChainGen.cs to each monomer rigid body (both linear and angular) by function "ApplyRandomForce" which is called once every physics update cycle. This function samples from a standard gaussian distribution using the "Brownian" function on line 273. The parameter "Brownian strength" (arbitrary units) in the app interface modifies the amplitude of the applied random force.
 
-Inter-monomer forces are approximated by a clipped harmonic potential and applied on line 31 and 32 of SatelScript.cs between the anthracene moieties of every second monomer. The "Stacking strength" (arbitrary units) in the app interface modifies the amplitude of the applied stacking force.
+Inter-monomer forces are approximated by a clipped harmonic potential and applied on line 31 and 32 of SatelScript.cs between the anthracene positions of every second monomer. The "Stacking strength" (arbitrary units) in the app interface modifies the amplitude of the applied stacking force.
 
 The first monomer is attached to a fixed point by a stiff spring joint. Pulling is carried out by moving another stiff spring joint attached to the last monomer at a velocity controlled by "Pulling velocity" (arbitrary units) in the app interface. This is done on line 188 of ChainGen.cs in every physics update cycle during pulling until a threshold force is reached (to avoid separation). Alternatively, the "Constant force" parameter (arbitrary units) in the app interface controls the force applied to the last monomer.
 
