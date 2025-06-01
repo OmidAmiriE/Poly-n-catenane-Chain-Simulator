@@ -21,7 +21,7 @@ The default values of the parameters in the app allow for ready observation of d
 
 Camera movement for close examination is controlled by keyboard and mouse inputs.
 ---
-
+Version 1.0.0
 
 
 	
