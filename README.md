@@ -9,7 +9,7 @@ For correspondence, please contact the corresponding authors listed on the manus
 Brief Technical Description
 ---
 
-This is an interactive real-time mechanical model of the catenated chained behaviour with Langevin dynamics. The 3D models used for collisions are simplified rhombus shaped rigid body approximations of the monomers. Deterministic forces, collisions and damping effects are simulated in real time by the PhysX engine in Unity according to model specifications. The parameter "Damping strength" (arbitrary units) in the app interface modifies the drag coefficient of the rigid bodies. The On top of that, the model simulates random Brownian forces applied to the chain, as well as inter-monomer stacking interactions.
+This is an interactive real-time mechanical model of the catenated chained behaviour with Langevin dynamics. The 3D models used for collisions are simplified rhombus shaped rigid body approximations of the monomers. Deterministic forces, collisions and damping effects are simulated in real time by the PhysX engine in Unity according to model specifications. The parameter "Damping strength" (arbitrary units) in the app interface modifies the drag coefficient of the rigid bodies. On top of that, the model simulates random Brownian forces applied to the chain, as well as inter-monomer stacking interactions.
 
 Random forces are applied on line 263 of ChainGen.cs to each monomer rigid body (both linear and angular) by function "ApplyRandomForce" which is called once every physics update cycle. This function samples from a standard gaussian distribution using the "Brownian" function on line 273. The parameter "Brownian strength" (arbitrary units) in the app interface modifies the amplitude of the applied random force.
 
