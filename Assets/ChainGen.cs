@@ -272,11 +272,11 @@ public class ChainGen : MonoBehaviour
     }
     public void Brownian(System.Random rng, out Unity.Mathematics.float3 F, out Unity.Mathematics.float3 T, float fMult, float tMult)
     {
-        double u1=0f, u2=0f, s=0f;
         F = new();
         T = new();
         for (int i = 0; i < 3; i++)
         {
+        double u1=0f, u2=0f, s=0f;
             for (int j = 0; j < 10 && (s >= 1.0 || s == 0); j++)
             {
                 u1 = rng.NextDouble()*2-1f;
